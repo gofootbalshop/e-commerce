@@ -1,5 +1,5 @@
 // components/home/TeamsSection.tsx
-import TeamCard from "../Cards/TeamCard";
+import TeamCard from "../cards/TeamCard";
 
 const teams = [
   {
