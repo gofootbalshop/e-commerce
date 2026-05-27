@@ -4,6 +4,7 @@ import Footer from "@/app/components/layout/Footer";
 import Header from "@/app/components/layout/Header";
 
 const product = {
+  
   title: "Home Kit 2026",
   team: "Juventus",
   league: "Serie A",
