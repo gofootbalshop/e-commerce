@@ -71,6 +71,7 @@ export default function TeamsSection() {
                   ? "border-[#6bd334] bg-[#6bd334] text-white"
                   : "border-zinc-200 bg-white text-zinc-800 hover:border-[#6bd334] hover:text-[#6bd334]"
               }`}
+              
             >
               {tab}
             </button>
