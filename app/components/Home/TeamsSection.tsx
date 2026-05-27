@@ -8,7 +8,7 @@ const teams = [
     description: "Scopri le maglie replica della Juventus disponibili nello shop.",
     rating: 4.8,
     reviews: 124,
-    href: "/squadre/juventus",
+    href: "/maglie/juventus",
     image: "/assets/home/t-shirt.png",
   },
   {
@@ -17,7 +17,7 @@ const teams = [
     description: "Maglie replica Inter per tifosi e appassionati nerazzurri.",
     rating: 4.7,
     reviews: 98,
-    href: "/squadre/inter",
+    href: "/maglie/inter",
     image: "/assets/home/t-shirt.png",
   },
   {
@@ -26,7 +26,7 @@ const teams = [
     description: "Le migliori maglie replica del Milan disponibili online.",
     rating: 4.9,
     reviews: 143,
-    href: "/squadre/milan",
+    href: "/maglie/milan",
     image: "/assets/home/t-shirt.png",
   },
   {
@@ -35,7 +35,7 @@ const teams = [
     description: "Maglie replica Napoli per vivere la passione azzurra.",
     rating: 4.8,
     reviews: 87,
-    href: "/squadre/napoli",
+    href: "/maglie/napoli",
     image: "/assets/home/t-shirt.png",
   },
   {
@@ -44,7 +44,7 @@ const teams = [
     description: "Scopri le maglie replica della Roma disponibili nello shop.",
     rating: 4.6,
     reviews: 76,
-    href: "/squadre/roma",
+    href: "/maglie/roma",
     image: "/assets/home/t-shirt.png",
   },
 ];

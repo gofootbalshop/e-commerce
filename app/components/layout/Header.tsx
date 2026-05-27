@@ -11,36 +11,13 @@ import {
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "Maglie Club", href: "/maglie-club" },
+  { label: "Maglie Club", href: "/maglie" },
   { label: "Maglie Nazionali", href: "/maglie-nazionali" },
-  { label: "Premium", href: "/premium" },
-  { label: "Novità", href: "/novita" },
-  { label: "Saldi", href: "/saldi" },
 ];
 
 export default function Header() {
   return (
     <header className="w-full bg-[#05090b] text-white">
-      {/* Top bar */}
-      <div className="border-b border-white/10">
-        <div className="mx-auto flex h-10 max-w-7xl items-center justify-between px-6 text-xs font-medium uppercase tracking-wide text-white/90">
-          <div className="flex items-center gap-2">
-            <Truck size={16} />
-            <span>Spedizione gratuita sopra i 69€</span>
-          </div>
-
-          <div className="hidden items-center gap-2 md:flex">
-            <Lock size={15} />
-            <span>Pagamenti sicuri</span>
-          </div>
-
-          <div className="hidden items-center gap-2 md:flex">
-            <Headphones size={16} />
-            <span>Assistenza clienti</span>
-          </div>
-        </div>
-      </div>
-
       {/* Main navbar */}
       <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
@@ -72,23 +49,6 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Icons */}
-        <div className="flex items-center gap-6">
-          <button className="transition hover:text-[#6bd334]">
-            <Search size={28} strokeWidth={1.7} />
-          </button>
-
-          <Link href="/account" className="transition hover:text-[#6bd334]">
-            <User size={28} strokeWidth={1.7} />
-          </Link>
-
-          <Link href="/cart" className="relative transition hover:text-[#6bd334]">
-            <ShoppingCart size={30} strokeWidth={1.7} />
-            <span className="absolute -right-3 -top-2 flex h-6 w-6 items-center justify-center rounded-full bg-[#6bd334] text-xs font-bold text-white">
-              0
-            </span>
-          </Link>
-        </div>
       </div>
     </header>
   );
